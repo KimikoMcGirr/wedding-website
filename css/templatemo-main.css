@@ -154,19 +154,28 @@ a:hover { color: #FFD25A; }
 
 
 .baner-content {
-  padding-top: 30vh;
+  padding-top: 10em;
   text-align: center;
   background-image: url(../img/landing.jpg);
+  /* -webkit-background-size: cover; */
+  /* -moz-background-size: cover; */
+  /* -o-background-size: cover; */
+  background-size: cover;
 }
 
 .baner-content h1 {
   font-family: rosella-deco, sans-serif;
   margin-top: 0px;
-  font-size: 3vw;
+  /* font-size: 3vw;   */
+  font-size: 400%;
+
   color: #00272B;
   position: relative;
-  left: 10vw;
-  top: -5vh;
+  /* position: absolute; */
+  top: 16px;
+  right: 16px;
+  /* left: 10vw; */
+  /* top: -100%; */
   font-weight: 400;
   margin-bottom: 0px;
 }
