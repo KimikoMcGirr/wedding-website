@@ -6,6 +6,12 @@ https://templatemo.com/tm-526-vanilla
 
 */
 
+/* @media only screen and (min-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+} */
+
 html,body /* gets rid of extra space*/
 {
     /* width: 100%;
@@ -172,9 +178,9 @@ a:hover { color: #FFD25A; }
   color: #00272B;
   position: relative;
   /* position: absolute; */
-  top: 16px;
-  right: 16px;
-  /* left: 10vw; */
+  top: 6vh;
+  /* right: -4px; */
+  left: 10vw;
   /* top: -100%; */
   font-weight: 400;
   margin-bottom: 0px;
@@ -188,7 +194,7 @@ a:hover { color: #FFD25A; }
   font-weight: 100;
   position: relative;
   left: 22vw;
-  top: 2vh;
+  top: 10vh;
   font-style: normal;
 }
 
@@ -198,8 +204,8 @@ a:hover { color: #FFD25A; }
   color: #fff;
   font-weight: 100;
   position: relative;
-  left: 36vw;
-  top: 50vh;
+  left: 42vw;
+  top: 60vh;
   /* font-style: normal; */
 }
 
@@ -535,7 +541,7 @@ footer em {
 
 @media (max-width: 767px){
 
-  .baner-content {
+  /* .baner-content {
     padding-top: 30vh;
   }
 
@@ -576,7 +582,7 @@ footer em {
     text-align: center;
     color: #fff;
     margin-bottom: 30px;
-  }
+  } */
 
 }
 
