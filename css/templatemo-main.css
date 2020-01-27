@@ -18,6 +18,7 @@ html, body /* gets rid of extra space*/
     background-size: cover;
     position: relative; /* we need this for the scrollspy */
     font-size: 14px;
+    overflow: visible;
 }
 
 
@@ -154,7 +155,7 @@ a:hover { color: #FFD25A; }
 
 
 .baner-content {
-  padding-top: 10em;
+  padding-top: 5em;
   text-align: center;
   background-image: url(../img/landing2.jpg);
   /* -webkit-background-size: cover; */
@@ -232,6 +233,8 @@ a:hover { color: #FFD25A; }
   padding-left: 2vw;
   padding-right: 2vw;
   padding-top: 10vh;
+  padding-bottom: 10vw;
+
   /* background-attachment: fixed; */
   /* min-height: 100vh; */
   /* height: inherit; */
@@ -307,37 +310,53 @@ a:hover { color: #FFD25A; }
 
 
 
-.projects-content {
+.details-content {
   padding-top: 20vh;
-  background-image: url(../img/3rd-section.jpg);
 }
 
-.projects-content .item img {
-  width: 100%;
-}
+.rsvp-content {
+  position: relative;
+  height: 1000px;
+  background-image: url(../img/rsvp.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  }
+.glform {
+  /* height: auto; */
+  position: absolute;
+  top: 5vh;
+  right: 15vw;
+  }
+  /* absolute { */
 
-.projects-content .item {
-  margin: 15px;
-}
 
-.projects-content .item .text-content {
-  background-color: #fff;
-  text-align: center;
-  padding: 20px;
-}
+/* .projects-content .item img { */
+  /* width: 100%; */
+/* } */
 
-.projects-content .item .text-content h4 {
-  margin-top: 0px;
-  font-size: 19px;
-  font-weight: 600;
-}
+/* .projects-content .item { */
+  /* margin: 15px; */
+/* } */
 
-.projects-content .item .text-content span {
-  font-style: normal;
-  font-size: 17px;
-  font-weight: 700;
-  color: #ff7d27;
-}
+/* .projects-content .item .text-content { */
+  /* background-color: #fff; */
+  /* text-align: center; */
+  /* padding: 20px; */
+/* } */
+
+/* .projects-content .item .text-content h4 { */
+  /* margin-top: 0px; */
+  /* font-size: 19px; */
+  /* font-weight: 600; */
+/* } */
+
+/* .projects-content .item .text-content span { */
+  /* font-style: normal; */
+  /* font-size: 17px; */
+  /* font-weight: 700; */
+  /* color: #ff7d27; */
+/* } */
 
 .owl-pagination {
   margin-top: 40px;
@@ -432,7 +451,7 @@ section {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 16vh;
-  background-image: url(../img/5th-section.jpg);
+  /* background-image: url(../img/5th-section.jpg); */
 }
 
 .contact-form {
