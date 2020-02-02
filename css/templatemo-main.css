@@ -37,7 +37,7 @@ a:hover { color: #FFD25A; }
 a.reg:link{
       font-family: rosella-deco, sans-serif;
       font-size: 300%;
-      color: #FFD25A;
+      color: #00272B;
     }
 
 /* a.reg:link{
@@ -611,6 +611,11 @@ footer em {
     /* position: absolute; */
     /* top: 5vh; */
     /* right: 15vw; */
+    .baner-content h1 {
+      font-family: rosella-deco, sans-serif;
+      font-size: 300%;
+      color: #fff;
+      text-align: center;
     }
   /* .baner-content {
     padding-top: 30vh;
