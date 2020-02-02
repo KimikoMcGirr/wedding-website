@@ -319,7 +319,7 @@ a.reg:link{
 
 .details-content h2 {
   font-family: rosella-deco, sans-serif;
-  font-size: 24px;
+  font-size: 200%;
   color: #00272B;
   text-align: center;
 
@@ -370,6 +370,13 @@ a.reg:link{
   right: 35vw;
   }
   /* absolute { */
+
+  .registry-content {
+      max-height:500px;
+      padding-top: 5vh;
+      padding-bottom: 10vh;
+
+    }
 
 .registry-content p {
     font-family: elido, sans-serif;
