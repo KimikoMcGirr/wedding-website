@@ -626,12 +626,12 @@ footer em {
 
 @media (max-width: 767px){
 
-  .glform {
+  /* .glform { */
     /* height: auto; */
-    position: absolute;
-    top: 5vh;
-    right: 15vw;
-    }
+    /* position: absolute; */
+    /* top: 5vh; */
+    /* right: 15vw; */
+    /* } */
   /* .baner-content {
     padding-top: 30vh;
   }
