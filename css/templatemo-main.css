@@ -39,6 +39,17 @@ a { color: #FFD25A; }
 
 a:hover { color: #FFD25A; }
 
+a.reg:link{
+      font-family: rosella-deco, sans-serif;
+      font-size: 400%;
+      color: ##FFD25A;
+    }
+
+/* a.reg:link{
+    font-family: rosella-deco, sans-serif;
+    font-size: 400%;
+    color: ##FFD25A;
+  } */
 
 .fixed-side-navbar {
   position: fixed;
@@ -166,33 +177,16 @@ a:hover { color: #FFD25A; }
 
 .baner-content h1 {
   font-family: rosella-deco, sans-serif;
-  /* margin-top: 0px; */
-  /* font-size: 3vw;   */
   font-size: 500%;
-
   color: #fff;
-  /* position: relative; */
-  /* position: absolute; */
   text-align: center;
-  /* top: 10vh; */
-  /* right: -4px; */
-  /* left: 10vw; */
-  /* top: -100%; */
-  /* font-weight: 400; */
-  /* margin-bottom: 0px; */
 }
 
 .baner-content h2 {
   font-family: elido, sans-serif;
   font-size: 200%;
   color: #00272B;
-  /* color: #fff; */
-  /* font-weight: 100; */
-  /* position: relative; */
-  /* left: 22vw; */
-  /* top: 18vh; */
   text-align: center;
-  /* font-style: normal; */
 }
 
 .baner-content p {
@@ -202,15 +196,6 @@ a:hover { color: #FFD25A; }
   font-weight: 100;
   position: relative;
   top: 65vh;
-  /* text-align: right; */
-  /* left: 50%; */
-  /* transform: translate(-50%, -50%); */
-  /* margin: 0 auto; */
-  /* left: 42vw; */
-  /* top: 65vh; */
-  /* left: 50%; */
-  /* transform: translate(-50%, -50%); */
-  /* font-style: normal; */
 }
 
 /* .baner-content span {
@@ -268,7 +253,7 @@ a:hover { color: #FFD25A; }
   float: left
   color: #00272B;
   font-family: elido, sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 100;
   text-align: justify;
   text-justify: inter-word;
@@ -276,6 +261,17 @@ a:hover { color: #FFD25A; }
 
 .story-content slider {
   float: right
+}
+
+#slideshow {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 50px; /* height of thumbs (if not required set to 0) */
+  height: auto; /* optionally add !important for WP version so it overrides default value */
+  width: auto;
+
 }
 
 /* .story-content .left-text ul {
@@ -311,7 +307,38 @@ a:hover { color: #FFD25A; }
 
 
 .details-content {
-  padding-top: 20vh;
+  padding-bottom: 5vh;
+}
+
+.details-content h1 {
+  font-family: rosella-deco, sans-serif;
+  font-size: 400%;
+  color: #00272B;
+  text-align: center;
+}
+
+.details-content h2 {
+  font-family: rosella-deco, sans-serif;
+  font-size: 24px;
+  color: #00272B;
+  text-align: center;
+
+}
+
+.details-content p {
+  font-family: elido, sans-serif;
+  font-size: 18px;
+  color: #00272B;
+  text-align: center;
+
+}
+
+.details-content p2 {
+  font-family: elido, sans-serif;
+  font-size: 18px;
+  color: #00272B;
+  text-align: left;
+
 }
 
 .rsvp-content {
@@ -322,6 +349,7 @@ a:hover { color: #FFD25A; }
   background-attachment: fixed;
   background-size: cover;
   }
+
 .glform {
   /* height: auto; */
   position: absolute;
@@ -330,6 +358,13 @@ a:hover { color: #FFD25A; }
   }
   /* absolute { */
 
+.registry-content p {
+    font-family: elido, sans-serif;
+    font-size: 18px;
+    color: #00272B;
+    text-align: center;
+
+  }
 
 /* .projects-content .item img { */
   /* width: 100%; */
