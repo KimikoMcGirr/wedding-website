@@ -37,7 +37,7 @@ a:hover { color: #FFD25A; }
 a.reg:link{
       font-family: rosella-deco, sans-serif;
       font-size: 300%;
-      color: ##FFD25A;
+      color: #FFD25A;
     }
 
 /* a.reg:link{
@@ -413,6 +413,7 @@ a.reg:link{
   padding-right: 15px;
   padding-top: 8vh;
   background-image: url(../img/attractions-section.jpg);
+    /* hermitage4.jpg); */
   background-attachment: fixed;
   min-height: 100vh;
   background-size: cover;
