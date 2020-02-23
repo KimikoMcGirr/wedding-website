@@ -34,11 +34,18 @@ a { color: #FFD25A; }
 
 a:hover { color: #FFD25A; }
 
-a.reg:link{
+a.reg2:link{
       font-family: rosella-deco, sans-serif;
       font-size: 300%;
       color: #00272B;
     }
+
+a.reg:link{
+      font-family: rosella-deco, sans-serif;
+      font-size: 300%;
+      color: #FFD25A;
+    }
+
 
 /* a.reg:link{
     font-family: rosella-deco, sans-serif;
